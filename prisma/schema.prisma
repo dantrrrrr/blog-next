@@ -20,5 +20,6 @@ model Post {
   content   String   @db.Text //for longer string
   author    String
   image     String
+  image2     String
   snippet    String   @db.Text
 }
